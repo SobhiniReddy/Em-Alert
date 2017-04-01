@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.emalert.Contacts">
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ragging Contacts"
+        android:width="300sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/mybutton"
+        android:textColor="@color/white"
+        android:id="@+id/rag"
+        android:layout_above="@+id/vio"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Violence Contacts"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:width="300sp"
+        android:textStyle="bold"
+        android:background="@drawable/mybutton"
+        android:textColor="@color/white"
+        android:id="@+id/vio"
+        android:layout_above="@+id/nat"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Natural Contacts"
+        android:width="300sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"
+        android:background="@drawable/mybutton"
+        android:textColor="@color/white"
+        android:id="@+id/nat"
+        android:layout_above="@+id/kid"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kidnapping Contacts"
+        android:width="300sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"
+        android:background="@drawable/mybutton"
+        android:textColor="@color/white"
+        android:id="@+id/kid"
+        android:layout_above="@+id/aci"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Accident Contacts"
+        android:width="300sp"
+        android:textStyle="bold"
+        android:background="@drawable/mybutton"
+        android:textColor="@color/white"
+        android:id="@+id/aci"
+
+        android:layout_marginBottom="41dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EM Contacts"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textView2"
+        android:textSize="50sp"
+        android:textAlignment="center"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="47dp" />
+
+</RelativeLayout>

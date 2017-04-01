@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.emalert.Student_Board">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/picid"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/kid"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="25dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="  Student Dash"
+        android:textSize="50sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="50dp"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LogOut"
+        android:id="@+id/log"
+        android:textStyle="bold"
+        android:background="@drawable/mybutton"
+        android:textColor="@color/white"
+        android:layout_alignTop="@+id/con"
+        android:layout_alignParentEnd="true" />
+
+    <!-- Adding Dummy -->
+
+    <Button
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:text="Ragging"
+        android:id="@+id/rag"
+        android:width="300sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/mybutton"
+        android:textColor="@color/white"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:text="Violence"
+        android:id="@+id/vio"
+        android:width="300sp"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"
+        android:background="@drawable/mybutton"
+        android:textColor="@color/white"
+        android:layout_below="@+id/rag"
+        android:layout_alignStart="@+id/rag" />
+
+    <Button
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:text="Natural"
+        android:id="@+id/nat"
+        android:width="300sp"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"
+        android:background="@drawable/mybutton"
+        android:textColor="@color/white"
+        android:layout_below="@+id/vio"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:text="Kiddnapped"
+        android:id="@+id/kid"
+        android:width="300sp"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"
+        android:background="@drawable/mybutton"
+        android:textColor="@color/white"
+        android:layout_below="@+id/nat"
+        android:layout_centerHorizontal="true" />
+<!--just toasting left did you swipe right ? yes that too toasting-->
+
+    <Button
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:text="Accident"
+        android:id="@+id/aci"
+        android:width="300sp"
+        android:textStyle="bold"
+        android:background="@drawable/mybutton"
+        android:textColor="@color/white"
+        android:layout_below="@+id/kid"
+        android:layout_centerHorizontal="true" />
+
+    <!--Pupu rin toh app, and see if anythong tasting when you swipe on the image that round walla -->
+
+    <!--Dummy Adding Finishedh-->
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contacts"
+        android:layout_marginRight="10dp"
+        android:id="@+id/con"
+        android:textStyle="bold"
+        android:background="@drawable/mybutton"
+        android:textColor="@color/white"
+        android:layout_alignTop="@+id/Req_emp"
+        android:layout_toStartOf="@+id/log" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Request Employees"
+        android:textStyle="bold"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/mybutton"
+        android:textColor="@color/white"
+        android:id="@+id/Req_emp"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/con" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/textView4"
+        android:layout_below="@+id/picid"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

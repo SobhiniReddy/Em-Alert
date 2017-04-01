@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:hint="Type your message"
+            android:ems="10"
+            android:id="@+id/req_msg"
+            android:layout_marginTop="61dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true" />
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner"
+            android:popupBackground="#80000000"
+            android:dropDownSelector="#ffffff"
+            android:spinnerMode="dropdown"
+            android:layout_below="@+id/req_msg"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="51dp" />
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner2"
+            android:popupBackground="#80000000"
+            android:dropDownSelector="#ffffff"
+            android:layout_below="@+id/spinner"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="49dp"
+            android:spinnerMode="dropdown" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send"
+            android:id="@+id/send"
+            android:textStyle="bold"
+            android:width="300sp"
+            android:background="@drawable/mybutton"
+            android:textColor="@color/white"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="47dp" />
+
+    </RelativeLayout>
+</LinearLayout>
